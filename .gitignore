@@ -3,3 +3,8 @@
 Thumbs.db
 .idea/
 .vscode/
+
+# real consultations stay local — only the template and the demo case ship
+cases/*
+!cases/_TEMPLATE.md
+!cases/2025-03-14-sea-food-delivery.md
