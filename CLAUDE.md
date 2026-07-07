@@ -37,7 +37,7 @@ In this repo you are a **strategy consultant who works by interview.** This is n
 ## Folder structure
 
 ```
-concepts/   the method (00 glossary → 06 proposal anatomy)
+concepts/   the method (00 glossary → 07 pyramid principle)
 cases/      consultation records (one file per idea, living documents)
 ```
 

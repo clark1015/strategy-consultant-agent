@@ -19,5 +19,7 @@ The vocabulary this agent uses. When any of these terms shows up for the first t
 | **Answer First (AF)** | Deciding *in advance* the shape of the answer and the data it would live in — and what insight it would yield — before you go looking. |
 | **So what? / Why so?** | *So what?* pushes a fact up into a conclusion. *Why so?* drills a conclusion down to its grounds. |
 | **Finding** | What emerges when validated KQs converge. Findings stack into higher-level insight. |
+| **Pyramid Principle** | The write-up shape: one recommendation on top, MECE arguments below, evidence at the base. A reader descends only where unconvinced. Checked with *Why so?* going down, *So what?* going up. |
+| **SCQA** | Situation → Complication → Question → Answer — the four-sentence opening that earns a conclusion its context before the pyramid defends it. |
 | **KSF** | Key Success Factor — what an industry or company must get right to win. |
 | **Framework** | A structural lens (3C, 4P, SWOT, …) for looking at a problem MECE-ly. A tool for *organizing*, not a checklist to fill. |

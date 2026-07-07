@@ -28,6 +28,10 @@
 
 - [ ] ...
 
+## One-page memo (optional — concepts/07-pyramid-principle.md)
+
+(SCQA opening → recommendation → numbered arguments, each with its KQ evidence → next actions → "what would change our mind.")
+
 ## Session log
 
 - YYYY-MM-DD: (one or two lines — how far this session got, what changed)

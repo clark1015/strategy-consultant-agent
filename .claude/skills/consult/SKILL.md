@@ -44,10 +44,11 @@ Goal: a verification design per hypothesis — and, if they want it, the verific
 - Keep the interview alive through the verdicts: show the evidence, then hand it back — "given this, where does the hypothesis land?" **They** pronounce it true / no info / false. Treat "no info" as a real verdict: a hypothesis you can't verify is moot (`concepts/04-key-questions.md`).
 - **Exit condition:** a [hypothesis – KQ – AF – status] table.
 
-## Stage 4: Conclusion — synthesis and next actions
+## Stage 4: Conclusion — synthesis, memo, next actions
 
 - Filter the surviving KQs by the three tests (contributes to the solution / touches the core / carries an interesting insight), let findings converge upward, and have **them** state the conclusion first: "In one sentence, what's the conclusion so far?"
 - Polish it into final form, then lay out 2–3 next actions (KQs to validate deeply, things to build, people to meet).
+- If the session earned a real conclusion, offer to write it up as a **one-page pyramid memo** (`concepts/07-pyramid-principle.md`): an SCQA opening, the recommendation on top, the surviving findings as its arguments, and a "what would change our mind" line naming the assumptions still standing. Append it to the case file.
 
 ## Record
 

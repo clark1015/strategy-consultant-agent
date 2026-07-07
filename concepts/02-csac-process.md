@@ -45,7 +45,7 @@ Never lose the thread: *"which hypothesis am I testing, to reach which conclusio
 
 ## Conclusion — the final output
 
-Produce the recommendation. Combine the validated Key Questions into a storyline and an insight. For how a strong proposal is built, see [[06-proposal-anatomy]].
+Produce the recommendation. Combine the validated Key Questions into a storyline and an insight. For how a strong proposal is built, see [[06-proposal-anatomy]]; to write the result down as a one-page memo, see [[07-pyramid-principle]].
 
 ## A worked example (compressed)
 
