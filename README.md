@@ -1,10 +1,24 @@
 # 🧭 Strategy Consultant Agent
 
+**English** | [한국어](README.ko.md)
+
 **An AI strategy consultant that interviews you — instead of answering for you.**
 
 Most AI "business advisors" dump a generic SWOT and call it a day. This one does the opposite. It runs a **Socratic, McKinsey-style interview**: it asks one or two sharp questions at a time, structures your answers back to you, and refuses to move on until the *real* problem is defined. The insight comes out of *your* mouth — the agent just makes sure you don't skip a step.
 
 **What this repo really is:** a worked example of taking a consulting methodology — structured, hypothesis-driven problem-solving — and *engineering it into a working [Claude Code](https://docs.claude.com/en/docs/claude-code) agent*. Not a prompt you paste, but an agent you think alongside: a persona (`CLAUDE.md`) + two workflow skills + a distilled method library. The interesting part isn't the frameworks — it's that a way of *thinking* got compiled into something that runs.
+
+---
+
+## Why I built this
+
+This didn't start as a portfolio piece. It started with a frustration I kept hitting while taking my own side project to production.
+
+Shipping was never the bottleneck — with AI, code gets written fast. The hard part was every decision *in front of* the code: which user's pain to solve first, whether a feature was a direction or a distraction, whether the problem I was excited about was even real. I kept catching myself deciding on momentum and vibes — skipping cases, never stating a hypothesis in a form that could be killed. Code has types, tests, and reviews to catch my mistakes. My strategy decisions had nothing.
+
+What I wanted was the discipline firms like McKinsey are famous for institutionalizing: **structured, hypothesis-driven problem solving** — MECE decomposition so no option goes unexamined, conclusion-shaped hypotheses so every claim can be proven or killed, and a partner who refuses to move on until the problem is actually defined.
+
+So I dug into the publicly available material on that methodology, rewrote it in my own words as the `concepts/` library, and engineered it into an agent I can sit across from whenever a real decision comes up. Not a "write me a business plan" bot — an interviewer aspiring to consulting-grade rigor that makes *me* do the thinking. Because the only conclusions I'll actually act on are the ones that came out of my own mouth.
 
 ---
 
@@ -81,8 +95,8 @@ Clarification  →  Structuring  →  Analysis  →  Conclusion
 
 - **Clarification** — re-define the problem until scope, terms, and assumptions are locked. "Is this even the real problem?"
 - **Structuring** — break the problem down MECE-style, then turn facts into *conclusion-shaped hypotheses* ("X is true!", not "is X true?").
-- **Analysis** — for each hypothesis, design a **Key Question** (what would prove it?) and an **Answer-First** shape (what data would the answer live in?).
-- **Conclusion** — converge validated findings into a one-paragraph strategy and 2–3 concrete next actions.
+- **Analysis** — for each hypothesis, design a **Key Question** (what would prove it?) and an **Answer-First** shape (what data would the answer live in?). Once the design stands, the agent can run the checks itself — reporting every result as *fact → implication for the hypothesis*, never a data dump.
+- **Conclusion** — converge validated findings into a one-paragraph strategy and 2–3 concrete next actions — optionally written up as a one-page, conclusion-first memo (Pyramid Principle + SCQA).
 
 Core stance, borrowed from the source methodology:
 
@@ -108,8 +122,9 @@ Every time, the job is the same: keep you from skipping a step, and make the con
 ```
 CLAUDE.md            The consultant persona. Drop into Claude Code and it
                      becomes an interviewer, not an answer machine.
-concepts/            The methodology, distilled into 6 reference notes
-                     (MECE, CSAC, initial research, Key Questions, frameworks…).
+concepts/            The methodology, distilled into 7 reference notes
+                     (MECE, CSAC, initial research, Key Questions, frameworks,
+                     the pyramid memo…).
 .claude/skills/
   consult/           /consult  — run a full CSAC interview on a new idea.
   pitch-review/      /pitch-review — stress-test a pitch deck with 7 lenses.
