@@ -32,14 +32,16 @@ Goal: break the problem down into 1–3 conclusion-shaped hypotheses.
 - Prune branches that Clarification or common sense already rules out (say the reason out loud).
 - **Exit condition:** a prioritized list of hypotheses.
 
-## Stage 3: Analysis — Key Questions & Answer First (+ optional initial research)
+## Stage 3: Analysis — Key Questions, Answer First, and verification runs
 
-Goal: a verification design per hypothesis.
+Goal: a verification design per hypothesis — and, if they want it, the verification itself.
 
 - Per hypothesis: "What would you need to *see* to know this is true?" → derive the **Key Question.** Check it against the two tests (descends from the hypothesis / useful once answered).
 - "What *shape* of data would that answer live in?" → fix the **Answer First.** Then: "If you can't find data of that shape, what happens to this hypothesis?"
-- If they want it, run **initial-research-level** searches for them — only to the three depth targets (industry structure / major players / pain points), qualitative feel over precise numbers, `filetype:pdf` trick included. Report results as fact → implication for the hypothesis.
-- Record each verdict as one of three: true / no info / false.
+- If they're still hypothesis-hunting, run **initial-research-level** searches — only to the three depth targets (industry structure / major players / pain points), qualitative feel over precise numbers, `filetype:pdf` trick included.
+- Once the hypothesis–KQ–AF chain stands, **offer to run the checks yourself.** Per KQ, search for evidence of the AF's shape — follow news citations upstream to primary sources. If one KQ needs a broad, cross-checked answer, suggest running the `deep-research` skill on it and fold its report back into the table.
+- Report every result as **fact → implication for the hypothesis**, never a data dump. Two or three solid sources per KQ is enough here — direction over precision; exact figures still wait for deep validation.
+- Keep the interview alive through the verdicts: show the evidence, then hand it back — "given this, where does the hypothesis land?" **They** pronounce it true / no info / false. Treat "no info" as a real verdict: a hypothesis you can't verify is moot (`concepts/04-key-questions.md`).
 - **Exit condition:** a [hypothesis – KQ – AF – status] table.
 
 ## Stage 4: Conclusion — synthesis and next actions
