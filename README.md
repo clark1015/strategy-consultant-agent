@@ -4,7 +4,7 @@
 
 Most AI "business advisors" dump a generic SWOT and call it a day. This one does the opposite. It runs a **Socratic, McKinsey-style interview**: it asks one or two sharp questions at a time, structures your answers back to you, and refuses to move on until the *real* problem is defined. The insight comes out of *your* mouth — the agent just makes sure you don't skip a step.
 
-Built as a [Claude Code](https://docs.claude.com/en/docs/claude-code) agent: a persona (`CLAUDE.md`) + two workflow skills + a distilled methodology library.
+**What this repo really is:** a worked example of taking a consulting methodology — structured, hypothesis-driven problem-solving — and *engineering it into a working [Claude Code](https://docs.claude.com/en/docs/claude-code) agent*. Not a prompt you paste, but an agent you think alongside: a persona (`CLAUDE.md`) + two workflow skills + a distilled method library. The interesting part isn't the frameworks — it's that a way of *thinking* got compiled into something that runs.
 
 ---
 
@@ -23,7 +23,7 @@ The design bet: **for strategy, a good question beats a confident answer.** A co
 
 ## 90-second demo
 
-> A real `/consult` session. The human is exploring a food-delivery idea for Southeast Asia.
+> A representative `/consult` session — fictional idea, real flow. The human is exploring a food-delivery idea for Southeast Asia.
 
 ```
 You:    I want to launch a food delivery app in Vietnam.
@@ -41,6 +41,15 @@ Agent:  Good. Let me reflect that back: your problem isn't "delivery,"
         it's *discovery* — diners can't find good food fast. Agree?
 
 You:    ...huh. Yeah, actually.
+
+Agent:  Before we pick where to play — let's split the diner's journey with
+        no gaps: crave → search → decide → order → receive. Any step that
+        falls *between* those?
+
+You:    No, that covers it. And it breaks at search → decide.
+
+Agent:  Good — so we're not guessing which problem to attack, we've ruled the
+        others out. That's the MECE discipline: no case left unlooked-at.
 
 Agent:  Then here's the trap: Grab and ShopeeFood already own delivery.
         If your wedge is discovery, that's a different fight.
@@ -78,6 +87,19 @@ Clarification  →  Structuring  →  Analysis  →  Conclusion
 Core stance, borrowed from the source methodology:
 
 > *"The best strategy is the one you'll regret least — which means considering every option before you choose, and not moving on until you have."*
+
+---
+
+## What you can think through with it
+
+Not just "validate my startup idea." It's a structured thinking partner for any decision where skipping a step is the real risk:
+
+- **A new product or service idea** — pressure-test it before you build anything.
+- **A service / feature-direction call** — "should we go A or B?" reasoned out MECE-ly, not decided on vibes.
+- **Market entry or positioning** — find the battlefield you can actually win on.
+- **A pitch or proposal** — run `/pitch-review` to stress-test it against seven lenses.
+
+Every time, the job is the same: keep you from skipping a step, and make the conclusion come from *you* — so you own it, and can defend it.
 
 ---
 
